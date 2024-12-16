@@ -23,7 +23,7 @@
   "author": "akio",
   "license": "MIT",
   "dependencies": {
-    "@whiskeysockets/baileys": "6.6.0",
+    "@whiskeysockets/baileys": "git+https://github.com/whiskeysockets/baileys.git",
     "@bochilteam/scraper": "^4.2.4",
     "@bochilteam/scraper-instagram": "^5.0.0",
     "@distube/ytdl-core": "latest",
