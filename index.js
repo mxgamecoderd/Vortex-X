@@ -2,7 +2,7 @@
 
 
 const {
-  default: dreadedConnect,
+  default: VortexConnect,
   useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,
@@ -39,14 +39,14 @@ authenticationn();
 const groupEvents = require("./groupEvents.js");
 // const connectionEvents = require("./connectionEvents.js");
 
-async function startDreaded() {
+async function startVortex() {
 
         const {  saveCreds, state } = await useMultiFileAuthState(`session`)
-            const client = dreadedConnect({
+            const client = VortexConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
 version: [2, 3000, 1015901307],
-        browser: [`Vortex-X`,'Safari','3.0'],
+        browser: [`Vortex`,'Safari','3.0'],
 fireInitQueries: false,
             shouldSyncHistoryMessage: true,
             downloadHistory: true,
@@ -245,13 +245,13 @@ if(presence === 'online')
             const currentHour = DateTime.now().setZone('Africa/Lagos').hour;
 
             if (currentHour >= 5 && currentHour < 12) {
-                return 'Good morning 🌄';
+                return 'Good morning 🌄, How was your night? hope you slept well.';
             } else if (currentHour >= 12 && currentHour < 18) {
-                return 'Good afternoon ☀️';
+                return 'Good afternoon ☀️, How is everything going hope it not stressful.';
             } else if (currentHour >= 18 && currentHour < 22) {
-                return 'Good evening 🌆';
+                return 'Good evening 🌆, How was your day?';
             } else {
-                return 'Good night 😴';
+                return 'Good night 😴, I will miss you, Have a great sleep.';
             }
         };
 
@@ -260,17 +260,17 @@ if(presence === 'online')
             return DateTime.now().setZone('Africa/Lagos').toLocaleString(DateTime.TIME_SIMPLE);
         };
 
-        let message = `Hello, ${getGreeting()},\n\nVortex-X is now alive created by mxgamecoder, fuck you if you are seeing this message . 📡 \n\n`;
+        let message = `Hello, ${getGreeting()} \n\nVortex-X is now alive.\n\nBot created by mxgamecoder\n\nfuck you if you are seeing this message📡 \n\n`;
 
         message += `👤 𝑩𝑶𝑻𝑵𝑨𝑴𝑬:- ${botname}\n`;
 message += `🔓 𝑴𝑶𝑫𝑬:- ${mode}\n`;
 message += `✍️ 𝑷𝑹𝑬𝑭𝑰𝑿:- ${prefix}\n`;
-        message += '💡 VERSION:- 1.0.0\n\n';
-message += `📝 𝑪𝑶𝑴𝑴𝑨𝑵𝑫𝑺:- ${totalCommands}\n`
+        message += '😔 VERSION:- 1.0.0\n\n';
+message += `📝 𝑪𝑶𝑴𝑴𝑨𝑵𝑫𝑺:- ${totalCommands} & more are still coming\n`
         message += '🕝 𝑻𝑰𝑴𝑬:- ' + getCurrentTimeInLagos() + '\n';
         message += '💡 𝑳𝑰𝑩𝑹𝑨𝑹𝒀:- Baileys\n\n';
-
-message += `POWERED BY MX-GΔMΞCØDΞR`
+      message += '🥺 Quote:- Sometimes, the ones who love us are the ones who hurt us the most.\n\n';
+message += `🤫 POWERED BY MX-GΔMΞCØDΞR ⛱`
 
 
 
@@ -334,10 +334,10 @@ app.get("/", (req, res) => {
 
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 
-startDreaded();
+startVortex();
 
 
-module.exports = startDreaded;
+module.exports = startVortex;
 
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {
