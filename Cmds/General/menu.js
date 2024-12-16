@@ -22,13 +22,13 @@ module.exports = async (context) => {
             const currentHour = DateTime.now().setZone('Africa/Lagos').hour;
 
             if (currentHour >= 5 && currentHour < 12) {
-                return 'Good morning 🌄';
+                return 'Good morning 🌄, How was your night? hope you slept well.';
             } else if (currentHour >= 12 && currentHour < 18) {
-                return 'Good afternoon ☀️';
+                return 'Good afternoon ☀️, How is everything going hope it not stressful.';
             } else if (currentHour >= 18 && currentHour < 22) {
-                return 'Good evening 🌆';
+                return 'Good evening 🌆, How was your day?';
             } else {
-                return 'Good night 😴';
+                return 'Good night 😴, I will miss you, Have a great sleep.';
             }
         };
 
@@ -37,19 +37,21 @@ module.exports = async (context) => {
             return DateTime.now().setZone('Africa/Lagos').toLocaleString(DateTime.TIME_SIMPLE);
         };
 
-        let menuText = `Hello, ${getGreeting()},\n\n`;
-menuText += '🥺 Version:- 1.0.0\n';
-        menuText += `👥 𝑼𝑺𝑬𝑹:- ${m.pushName}\n`;
-        menuText += `👤 𝑩𝑶𝑻𝑵𝑨𝑴𝑬:- ${botname}\n`;
-menuText += `📝 𝑪𝑶𝑴𝑴𝑨𝑵𝑫𝑺:- ${totalCommands}\n`
-        menuText += '🕝 𝑻𝑰𝑴𝑬:- ' + getCurrentTimeInNairobi() + '\n';
-        menuText += `✍️ 𝑷𝑹𝑬𝑭𝑰𝑿:- ${prefix}\n`;
-menuText += `🔓 𝑴𝑶𝑫𝑬:- ${mode}\n`;
-        menuText += '💡 𝑳𝑰𝑩𝑹𝑨𝑹𝒀:- Baileys\n';
+let menuText = `🌟 **Welcome ${m.pushName, ${getGreeting()}!**\n\n`;
 
-        menuText += '━━━━━━━\n';
-        menuText += '━━━━━━\n';
-        menuText += '━━━━━━━\n\n';
+menuText += `📝 **Version**: 1.0.0\n`;
+menuText += `👥 **User**: ${m.pushName}\n`;
+menuText += `🤖 **Bot Name**: ${botname}\n`;
+menuText += `🔧 **Commands**: ${totalCommands}\n`;
+menuText += `⏰ **Time (Nairobi)**: ${getCurrentTimeInLagos()}\n`;
+menuText += `📌 **Prefix**: ${prefix}\n`;
+menuText += `🛠️ **Mode**: ${mode}\n`;
+menuText += `📚 **Library**: Baileys\n`;
+
+menuText += '\n';
+menuText += '━━━━━━━━━━━━━━━━━━━━━\n';
+menuText += '━━━━━━━━━━━━━━━━━━━━━\n';
+menuText += '━━━━━━━━━━━━━━━━━━━━━\n\n';
 
 
         const toFancyUppercaseFont = (text) => {
