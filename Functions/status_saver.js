@@ -6,7 +6,7 @@ module.exports = async (client, m, Owner, prefix) => {
 
 
 if (quotedMessage && textL.startsWith(prefix + "save") && !m.quoted.chat.includes("status@broadcast")) {
-    return m.reply("You did not tag a status media to save.");
+    return m.reply("You did not tag a status media to save please 😓");
   }
 
 
