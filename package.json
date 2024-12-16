@@ -16,14 +16,14 @@
     "bot-wa",
     "bot-md",
     "whatsapp-multi-device",
-    "akio-md",
+    "Vortex-X",
     "kingmalvn"
   ],
    "base": "https://github.com/DikaArdnt/Hisoka-Morou",
-  "author": "akio",
+  "author": "mxgamecoder",
   "license": "MIT",
   "dependencies": {
-    "@whiskeysockets/baileys": "git+https://github.com/whiskeysockets/baileys.git",
+    "@whiskeysockets/baileys": "https://github.com/whiskeysockets/baileys.git",
     "@bochilteam/scraper": "^4.2.4",
     "@bochilteam/scraper-instagram": "^5.0.0",
     "@distube/ytdl-core": "latest",
