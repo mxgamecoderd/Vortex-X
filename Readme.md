@@ -1,10 +1,10 @@
 # 🙂 *Vortex-X* 🥺
 
-#### Vortex-X was released DECEMBER 15 2024
+##### Vortex-X WAS RELEASED ON DECEMBER 15 2024
 
-#### NEXT UPDATE ON DECEMBER 20 2024
+##### NEXT UPDATE ON DECEMBER 20 2024
 
-#### LAST NEXT UPDATE ON DECEMBER 16 2024
+##### LAST NEXT UPDATE ON DECEMBER 16 2024
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=VORTEX-X+IS+AN+INTELLIGENT+ASSISTANT;MULTI-DEVICES+WHATSAPP+BOT;RELEASE+ON+December+15+2024;MX-+GΔMΞCØDΞR+Lead+and+Developer+🤔;Chatgpt+Assistant)](https://git.io/typing-svg)
