@@ -3,7 +3,7 @@ const path = require("path");
 
 module.exports = async (client, m, antidelete) => {
     if (m.isGroup && antidelete === 'true' && m.message.protocolMessage && m.message.protocolMessage.type === 0) {
-        console.log("⚠️ Deleted Message Detected!");
+        console.log("⚠️ Vortex-X Deleted Message Detected 😢");
         let key = m.message.protocolMessage.key;
 
         try {
