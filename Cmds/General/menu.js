@@ -33,11 +33,11 @@ module.exports = async (context) => {
         };
 
        
-        const getCurrentTimeInNairobi = () => {
+        const getCurrentTimeInLagos = () => {
             return DateTime.now().setZone('Africa/Lagos').toLocaleString(DateTime.TIME_SIMPLE);
         };
 
-let menuText = `🌟 **Welcome ${m.pushName, ${getGreeting()}!**\n\n`;
+let menuText = `🌟 **Welcome ${m.pushName}, ${getGreeting()}!**\n\n`;
 
 menuText += `📝 **Version**: 1.0.0\n`;
 menuText += `👥 **User**: ${m.pushName}\n`;
