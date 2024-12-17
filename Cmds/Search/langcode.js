@@ -88,12 +88,12 @@ yi - Yiddish
 sq - Albanian  
 te - Telugu
 
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ ʟᴏʀᴅ*
+> *POWERED BY Vortex-X*
   `;
 
   // Prepare the image URL
   const image = {
-    url: "https://files.catbox.moe/qeshxp.jpg"
+    url: "https://i.imgur.com/BsrFTze.jpeg"
   };
 
   // Prepare the message object
