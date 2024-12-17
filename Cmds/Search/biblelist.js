@@ -3,7 +3,7 @@ module.exports = async (context) => {
 
 
   const messageCaption = `
- Vortex-X 𝐁𝐈𝐁𝐋𝐄 𝐁𝐎𝐎𝐊 𝐋𝐈𝐒𝐓
+ Vortex-X BIBLE LIST
 
 Old Testament:
 1. Genesis
@@ -75,12 +75,12 @@ New Testament:
 26. Jude
 27. Revelation
 
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ ʟᴏʀᴅ*
+> *POWERED BY MX-GΔMΞCØDΞR*
   `;
 
   // Prepare the image URL
   const image = {
-    url: "https://files.catbox.moe/qeshxp.jpg"
+    url: "https://i.imgur.com/BsrFTze.jpeg"
   };
 
   // Prepare the message object
