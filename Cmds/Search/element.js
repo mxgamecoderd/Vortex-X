@@ -27,7 +27,7 @@ module.exports = async (context) => {
         const imageUrl = data.image; // Assuming the image URL is in the response
 
         // Create the message
-        const message = `Here is Akii Md element.If you want to check on more elements type *elementlist* to get all periodic table for all elements.\n\n\n\n*AKIO-MD ELEMENT*\n\nname: ${name}\n\nSymbol: ${symbol}\n\nAtomic Number: ${atomicNumber}\n\nAtomic Mass: ${atomicMass}\n\nPeriod: ${period}\n\nPhase: ${phase}\n\nSummary: ${summary}`;
+        const message = `Here is Vortex-X element.If you want to check on more elements type *elementlist* to get all periodic table for all elements.\n\n\n\n*Vortex-X ELEMENT*\n\nname: ${name}\n\nSymbol: ${symbol}\n\nAtomic Number: ${atomicNumber}\n\nAtomic Mass: ${atomicMass}\n\nPeriod: ${period}\n\nPhase: ${phase}\n\nSummary: ${summary}`;
 
         // Send the message with the element's image
         await client.sendMessage(m.chat, { image: { url: imageUrl }, caption: message }, { quoted: m });
