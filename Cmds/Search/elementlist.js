@@ -3,7 +3,7 @@ module.exports = async (context) => {
 
 
   const messageCaption = `
- 𝐀𝐊𝐈𝐎-𝐌𝐃 𝐄𝐋𝐄𝐌𝐄𝐍𝐓 𝐋𝐈𝐒𝐓
+ Vortex-X ELEMENT LISTS
 
 1. Hydrogen (H)
 2. Helium (He)
@@ -124,12 +124,12 @@ module.exports = async (context) => {
 117. Tennessine (Ts)
 118. Oganesson (Og)
 
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ ʟᴏʀᴅ*
+> *POWERED BY Vortex-X*
   `;
 
   // Prepare the image URL
   const image = {
-    url: "https://files.catbox.moe/qeshxp.jpg"
+    url: "https://i.imgur.com/BsrFTze.jpeg"
   };
 
   // Prepare the message object
