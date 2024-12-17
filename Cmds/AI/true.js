@@ -41,6 +41,7 @@ module.exports = async (context) => {
                 **Alternate Name**: ${alternateName}
                 **Email**: ${email}
                 **Addresses**: ${JSON.stringify(addresses)}
+                💫 POWERED BY Vortex-X 💫
             `;
 
             await m.reply(resultMessage); // Send the result message to the user
