@@ -39,14 +39,14 @@ module.exports = async (context) => {
 
 let menuText = `🌟 **Welcome ${m.pushName}, ${getGreeting()}!**\n\n`;
 
-menuText += `📝 **Version**: 1.0.0\n`;
-menuText += `👥 **User**: ${m.pushName}\n`;
-menuText += `🤖 **Bot Name**: ${botname}\n`;
-menuText += `🔧 **Commands**: ${totalCommands}\n`;
-menuText += `⏰ **Time (Nairobi)**: ${getCurrentTimeInLagos()}\n`;
-menuText += `📌 **Prefix**: ${prefix}\n`;
-menuText += `🛠️ **Mode**: ${mode}\n`;
-menuText += `📚 **Library**: Baileys\n`;
+menuText += `📝 Version: 1.0.0\n`;
+menuText += `👥 User: ${m.pushName}\n`;
+menuText += `🤖 Bot Name: ${botname}\n`;
+menuText += `🔧 Commands: ${totalCommands}\n`;
+menuText += `⏰ Time: ${getCurrentTimeInLagos()}\n`;
+menuText += `📌 Prefix: ${prefix}\n`;
+menuText += `🛠️ Mode: ${mode}\n`;
+menuText += `📚 Library: Baileys\n`;
 
 menuText += '\n';
 menuText += '━━━━━━━━━━━━━━━━━━━━━\n';
