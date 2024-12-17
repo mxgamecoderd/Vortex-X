@@ -260,7 +260,7 @@ if(presence === 'online')
             return DateTime.now().setZone('Africa/Lagos').toLocaleString(DateTime.TIME_SIMPLE);
         };
 
-        let message = `Hello ${m.pushName}, ${getGreeting()} \n\nVortex-X is now alive.\n\nBot created by mxgamecoder\n\nfuck you if you are seeing this message📡 \n\n`;
+        let message = `Hello This Vortex-X, ${getGreeting()} \n\nVortex-X is now alive.\n\nBot created by mxgamecoder\n\nfuck you if you are seeing this message📡 \n\n`;
 
         message += `👤 𝑩𝑶𝑻𝑵𝑨𝑴𝑬:- ${botname}\n`;
 message += `🔓 𝑴𝑶𝑫𝑬:- ${mode}\n`;
