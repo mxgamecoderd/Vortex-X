@@ -19,7 +19,7 @@ module.exports = async (context) => {
         const { name, time, timeZone } = data.result[0];
 
         // Create the message
-        const message = `Live Time in *${name}*:\n\n*Date & Time:* ${time}\n*TimeZone:* ${timeZone}\n\n> *POWERED BY KEITH-MD*`;
+        const message = `Live Time in *${name}*:\n\n*Date & Time:* ${time}\n*TimeZone:* ${timeZone}\n\n> *POWERED BY Vortex-X*`;
 
         // Send the message
         await client.sendMessage(m.chat, { text: message }, { quoted: m });
