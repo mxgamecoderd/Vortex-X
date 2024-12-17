@@ -5,7 +5,7 @@ module.exports = async (context) => {
 
     // Check if the text includes the '|' separator
     if (!text.includes('|')) {
-        return m.reply("Example Usage: * .deadpool Keith|Tech");
+        return m.reply("Example Usage: * .deadpool Vortex-X");
     }
 
     try {
@@ -14,7 +14,7 @@ module.exports = async (context) => {
 
         // Ensure both parts are provided
         if (!text1 || !text2) {
-            return m.reply("Please provide two arguments separated by '|'. Example: * .avenger Akio|Tech");
+            return m.reply("Please provide two arguments separated by '|'. Example: * .avenger Vortex-X");
         }
 
         // Build the API request URL
