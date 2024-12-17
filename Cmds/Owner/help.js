@@ -5,7 +5,7 @@ const fs = require('fs');
     await ownerMiddleware(context, async () => {
         const { client, m, text, Owner, prefix } = context;
 
-        if (!text) return m.reply(`Provide name of command to fetch it's code. Like, ${prefix}getcmd fullpp`);
+        if (!text) return m.reply(`Provide name of command to fetch it's code. Like, ${prefix}help fullpp`);
 
         const categories = [
             { name: 'AI' },
@@ -14,7 +14,8 @@ const fs = require('fs');
             { name: 'Editting' },
             { name: 'groups' },
             { name: 'Owner' },
-            { name: 'Coding' }
+            { name: 'Coding' },
+            { name: 'Logo' }
         ];
 
         let fileFound = false;
