@@ -16,6 +16,8 @@ Desc:- ${con.description}
 Summary:- ${con.extract}
 
 URL:- ${con.content_urls.mobile.page}
+
+POWERED BY Vortex-X
         `
             m.reply(texa)
         } catch (err) {
