@@ -15,13 +15,13 @@ module.exports = async (context) => {
         }
 
         const messageText = `
- *AKII-MD GUESS AGE* 
+ *Vortex-X GUESS AGE* 
       
  *_Name:_* ${data.name}
  *_Count:_* ${data.count}
  *_Estimated Age:_* ${data.age}
 ╭──────────────◆
-│ > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ ʟᴏʀᴅ*
+│ > *POWERED BY Vortex-X*
 ╰───────────────◆ `;
         
         await client.sendMessage(m.chat, { text: messageText }, { quoted: m });
