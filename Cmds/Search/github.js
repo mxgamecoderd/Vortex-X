@@ -24,6 +24,9 @@ const userInfo = `
 🔓 Public Repo: ${data.public_repos}
 👪 Followers: ${data.followers}
 🫶 Following: ${data.following}
+
+
+💫POWERED BY Vortex-X💫
 `;
 
 await client.sendMessage(m.chat, { image: { url: pic }, caption: userInfo }, { quoted: m });
