@@ -35,14 +35,14 @@ module.exports = async (context) => {
       // If it's an image, send the image URL
       await client.sendMessage(m.sender, {
         image: { url: fetchUrl },
-        caption: "*POWERED BY AKIO-MD*",
+        caption: "*POWERED BY Vortex-X*",
       }, { quoted: m });
 
     } else if (/video\/.*/.test(contentType)) {
       // If it's a video, send the video URL
       await client.sendMessage(m.sender, {
         video: { url: fetchUrl },
-        caption: "*POWERED BY AKIO-MD*",
+        caption: "*POWERED BY Vortex-X*",
       }, { quoted: m });
 
     } else if (/text|json/.test(contentType)) {
@@ -63,7 +63,7 @@ module.exports = async (context) => {
       // If content is neither image, video, nor text/json, send it as a document
       await client.sendMessage(m.sender, {
         document: { url: fetchUrl },
-        caption: "*POWERED BY AKIO-MD*",
+        caption: "*POWERED BY Vortex-X*",
       }, { quoted: m });
     }
     
