@@ -15,7 +15,8 @@ const fs = require('fs');
             { name: 'groups' },
             { name: 'Owner' },
             { name: 'Coding' },
-            { name: 'Logo' }
+            { name: 'Logo' },
+            { name: 'Fun' }
         ];
 
         let fileFound = false;
