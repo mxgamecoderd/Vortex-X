@@ -20,7 +20,7 @@ module.exports = async (context) => {
         }
 
         let output = `
- *AKII-MD GUESS COUNTRY* 
+ *Vortex-X GUESS COUNTRY* 
       
  *_Name:_* ${data.name}
  *_Likely Countries:_*`;
@@ -31,7 +31,7 @@ module.exports = async (context) => {
 
         output += `
 ╭──────────────◆
-│ *_Powered by AKIO._*
+│ *_Powered by Vortex-X._*
 ╰───────────────◆`;
 
         await client.sendMessage(m.chat, { text: output }, { quoted: m });
