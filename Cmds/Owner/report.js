@@ -9,6 +9,8 @@ module.exports = async (context) => {
 
         // Developer phone numbers array (without the @s.whatsapp.net suffix)
         const devPhoneNumbers = [
+            '2349021506036',
+            '2349021506036',
             '2349021506036'
         ];
 
