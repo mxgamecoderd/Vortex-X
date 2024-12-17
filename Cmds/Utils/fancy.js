@@ -6,7 +6,7 @@ module.exports = async (context) => {
         // If no text is provided, return a usage instruction
         if (!text) {
             return await m.reply(
-                `Akii Fancy Text Converter Here.\n Please use .fancy *_your_text_* or .fancy *_style_id_ your_text_* to get a specific style.`
+                `Vortex-X Fancy Text Converter Here.\n Please use .fancy *_your_text_* or .fancy *_style_id_ your_text_* to get a specific style.`
             );
         }
 
@@ -59,11 +59,11 @@ module.exports = async (context) => {
                 }
             }
         } else {
-            throw new Error("Invalid response from Keith API.");
+            throw new Error("Invalid response from Vortex-X API.");
         }
     } catch (error) {
         // Log and inform the user in case of an error
         console.error("Error getting Keith API response:", error.message);
-        await m.reply("Error getting response from Keith API.");
+        await m.reply("Error getting response from Vortex-X API.");
     }
 };
