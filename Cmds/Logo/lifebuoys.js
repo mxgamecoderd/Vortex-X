@@ -5,7 +5,7 @@ module.exports = async (context) => {
 
     // Check if the text includes the '|' separator
     if (!text.includes('|')) {
-        return m.reply("Example Usage: * .lifebuoys Akio|Tech");
+        return m.reply("Example Usage: * .lifebuoys Vortex-X");
     }
 
     try {
