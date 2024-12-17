@@ -14,7 +14,7 @@ module.exports = async (context) => {
 
         // Ensure both parts are provided
         if (!text1 || !text2) {
-            return m.reply("Please provide two arguments separated by '|'. Example: * .lifebuoys Akio|Tech");
+            return m.reply("Please provide two arguments separated by '|'. Example: * .lifebuoys Vortex-X");
         }
 
         // Build the API request URL
