@@ -23,8 +23,8 @@ module.exports = async (context) => {
     "```SENDING LOG DOCUMENTS...```",
     "```SUCCESSFULLY SENT DATA AND Connection disconnected```",
     "```BACKLOGS CLEARED```",
-    "```POWERED BY KEITH MD```",
-    "```By ᴛᴇᴄʜ ʟᴏʀᴅ```"
+    "```POWERED BY Vortex-X```",
+    "```By MX-GΔMΞCØDΞR```"
     ];
 
     // Loop through all the steps and send them
