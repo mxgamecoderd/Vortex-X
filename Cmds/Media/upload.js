@@ -28,7 +28,7 @@ let fta2 = await client.downloadAndSaveMediaMessage(q)
 
     const fileSizeMB = (mediaBuffer.length / (1024 * 1024)).toFixed(2)
 
-    m.reply(`Media Link:-\n\n${link}`)
+    m.reply(`Media Link:-\n\n${link}\n\nPOWERED BY Vortex-X`)
   } else {
     m.reply(`Error occured...`)
   }
