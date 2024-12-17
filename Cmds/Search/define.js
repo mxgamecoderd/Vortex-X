@@ -39,7 +39,7 @@ module.exports = async (context) => {
 📝 *Example*: ${example}
 🔗 *Synonyms*: ${synonyms}
 
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴇᴄʜ ʟᴏʀᴅ*`;
+> *POWERED BY MX-GΔMΞCØDΞR*`;
 
         // Send the message
         await client.sendMessage(m.chat, { text: message }, { quoted: m });
