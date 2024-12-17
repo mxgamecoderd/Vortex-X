@@ -6,7 +6,7 @@ module.exports = async (context) => {
     }
 
     try {
-        await m.reply("*Restarting...*");
+        await m.reply("*Restarting Vortex-X...*");
 
         // Add a delay function
         const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
