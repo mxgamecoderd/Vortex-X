@@ -9,14 +9,14 @@ module.exports = async (context) => {
 
         const { quote } = await response.json();
         const quoteMessage = `
-  ┏━━━ *AKIO-QUOTES* ━━━◆                     
+  ┏━━━ *Vortex-X-QUOTES* ━━━◆                     
   ┃
 *◇* _${quote.body}_
   ┃   
   ┃     *◇* *AUTHOR:* ${quote.author}
   ┃      
   ╭──────────────◆
-  │ *_Powered by akii._*
+  │ *_Powered by Vortex-X._*
   ╰──────────────◆
         `;
 
