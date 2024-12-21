@@ -29,7 +29,7 @@ module.exports = async (context) => {
             }, { quoted: m });
         } else {
             // If no images are found
-            throw new Error('No images found for Naruto');
+            throw new Error('No images found for Cat');
         }
 
     } catch (error) {
