@@ -16,7 +16,7 @@ module.exports = async (context) => {
 
             // Prepare the message
             const message = `
-                Hello ${m.pushName}, here is a random Naruto image for you! 🖼️\n\n
+                Hello ${m.pushName}, here is a random Cat image for you! 🖼️\n\n
                 Category: CAT\n\n
                 POWERED BY MXGAMECODER.
             `;
