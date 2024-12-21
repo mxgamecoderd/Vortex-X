@@ -16,7 +16,7 @@ module.exports = async (context) => {
 
             // Prepare the message
             const message = `
-                Hello ${m.pushName}, here is a random dog image for you! 🖼️\n\n
+                Hello ${m.pushName}, here is a random Dog image for you! 🖼️\n\n
                 Category: DOG\n\n
                 POWERED BY MXGAMECODER.
             `;
@@ -29,7 +29,7 @@ module.exports = async (context) => {
             }, { quoted: m });
         } else {
             // If no images are found
-            throw new Error('No images found for Naruto');
+            throw new Error('No images found for Dog');
         }
 
     } catch (error) {
